@@ -62,7 +62,7 @@ body{
   justify-content: space-around;
 }
 
-.flex-container > div {
+.flex-container div {
   background-color: #E5E3E0;
   width: 15em;
   margin: 10px;
@@ -79,6 +79,10 @@ body{
 .flex-container > div:hover{
   background-color: #838D7B;
   color: #E5E3E0;
+}
+
+.flex-container a{
+  color: #354827;
 }
 
 /* Menu bar slutter her */
@@ -106,7 +110,7 @@ body{
   }
 
   #billedeafmig{
-    float: left;
+    float: right;
   }
 
 /* Om mig indlæg slutter her */

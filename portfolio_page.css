@@ -76,13 +76,13 @@ body{
   font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
 }
 
-.flex-container > div:hover{
+.flex-container div:hover{
   background-color: #838D7B;
   color: #E5E3E0;
 }
 
-.a{
-  color: yellow;
+.flex-container a{
+  color: #354827;
 }
 
 /* Menu bar slutter her */
@@ -121,17 +121,9 @@ body{
   .raekke{
     display: flex;
     flex-direction: row;
-    margin: 70px;
+    margin: 30px;
     justify-content: space-around;
   }
-
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .raekke{
-    flex-direction: column;
-  }
-}
 
 /* Om mig indlæg slutter her */
 /* Footer starter her */
