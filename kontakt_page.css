@@ -83,13 +83,6 @@ body{
 
 /* Menu bar slutter her */
 /* Om mig indlæg starer her */
-.boks{
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
 
 .mid{
   background-color: #E5E3E0;
@@ -97,7 +90,6 @@ body{
   font-family: 'Osaka-Sans Serif', sans-serif;
   font-weight: lighter;
   color: #695B51;
-  text-align: center;
 }
 
   .overskrift{
@@ -105,20 +97,7 @@ body{
     font-size: 1.8em;
     font-weight: bold;
     color: #354827;
-  }
-
-  .underoverskrift{
-    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
-    font-size: 1.5em;
-    font-weight: normal;
-    color: #354827;
-  }
-
-  .raekke{
-    display: flex;
-    flex-direction: row;
-    margin: 70px;
-    justify-content: space-around;
+    text-align: center;
   }
 
   .bodytekst{
@@ -126,9 +105,9 @@ body{
     margin: 2em;
   }
 
-  #mig {
-          float: right;
-        }
+  #billedeafmig{
+    float: left;
+  }
 
 /* Om mig indlæg slutter her */
 /* Footer starter her */

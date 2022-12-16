@@ -81,8 +81,20 @@ body{
   color: #E5E3E0;
 }
 
+.a{
+  color: yellow;
+}
+
 /* Menu bar slutter her */
 /* Om mig indlæg starer her */
+.boks{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .mid{
   background-color: #E5E3E0;
   font-size: 20px;
@@ -106,15 +118,18 @@ body{
     color: #354827;
   }
 
-  .flex-billeder{
-  display: flex;
-  flex-direction: column;
-}
+  .raekke{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    justify-content: space-around;
+  }
+
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
-  .flex-container {
-    flex-direction: row;
+  .raekke{
+    flex-direction: column;
   }
 }
 
