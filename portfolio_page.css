@@ -88,6 +88,14 @@ body{
 /* Menu bar slutter her */
 /* indlæg starer her */
 
+      /* <Om mig page*/
+#bodytekstommig{
+  text-align: left;
+  margin: 5%;
+  line-height: 1.5;
+}
+      /* <Om mig page>*/
+
       /* <Portfolio page*/
 .boks{
   margin-left: 50px;
