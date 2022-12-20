@@ -86,7 +86,9 @@ body{
 }
 
 /* Menu bar slutter her */
-/* Om mig indlæg starer her */
+/* indlæg starer her */
+
+      /* <Portfolio page*/
 .boks{
   margin-left: 50px;
   margin-right: 50px;
@@ -94,6 +96,7 @@ body{
   margin-bottom: 20px;
   text-align: center;
 }
+      /* Portfolio page> */
 
 .mid{
   background-color: #E5E3E0;
@@ -118,14 +121,27 @@ body{
     color: #354827;
   }
 
+      /* <Portfolio page*/
   .raekke{
     display: flex;
     flex-direction: row;
     margin: 30px;
     justify-content: space-around;
   }
+      /* Portfolio page> */
 
-/* Om mig indlæg slutter her */
+      /* <Kontakt page */
+  .bodytekstkontakt{
+    text-align: left;
+    margin: 2em;
+  }
+
+  #billedeafmig{
+    float: right;
+  }
+      /* Kontakt page> */
+
+/* indlæg slutter her */
 /* Footer starter her */
 .bottom{
   background-color: #99A391;
